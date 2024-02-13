@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150px;
+}
+header .header_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+header .header_logo img {
+  height: 150px;
+  border-radius: 50%;
+}
+header .header_nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+  font-family: "Protest Revolution", sans-serif;
+}
+header .header_nav a:visited,
+header .header_nav a {
+  color: black;
+  text-decoration: none;
+}
+header .header_nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header .header_nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  margin-top: 60px;
+  background-color: gray;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer_logo {
+  position: relative;
+}
+footer .footer_logo::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background-color: rgb(216, 82, 79);
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+footer .footer_logo::before {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background-color: rgb(216, 82, 79);
+  position: absolute;
+  top: 50%;
+  right: 100%;
+}
+footer .footer_logo img {
+  width: 100px;
+  border-radius: 50%;
+}
+footer .footer_social {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer_social img {
+  border-radius: 5px;
+  width: 50px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.banner h1 {
+  font-family: "Protest Revolution", sans-serif;
+  color: white;
+  font-size: 150px;
+  position: absolute;
+}
+.banner .banner_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.banner .banner_wrapper img {
+  height: 500px;
+}
+.banner .banner_wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+
+.section_horraire {
+  margin-top: 150px;
+  font-family: "Protest Revolution";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_horraire .section_horraire_wrapper {
+  border: 2px black solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.table_horraire {
+  min-width: 500px;
+}
+.table_horraire caption {
+  font-size: 70px;
+  text-decoration: underline;
+  margin: 30px auto;
+}
+.table_horraire tr {
+  height: 50px;
+}
+.table_horraire tr th {
+  width: 50%;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.table_horraire tr td {
+  width: 50%;
+  text-align: center;
+}
+
+.main_products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_products h1 {
+  font-size: 70px;
+  font-family: "Protest Revolution", sans-serif;
+  margin: 30px auto 50px;
+  text-decoration: underline;
+}
+
+.first_categories {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first_categories .first_category_card {
+  font-family: "Protest Revolution", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  height: 180px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.first_categories .first_category_card h2 {
+  position: absolute;
+  top: 20px;
+  text-decoration: underline;
+}
+.first_categories .first_category_card img {
+  width: 100px;
+}
+
+.second_category ul {
+  display: flex;
+  flex-direction: row;
+}
+.second_category ul .second_category_card {
+  font-family: "Protest Revolution", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  height: 280px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.second_category ul .second_category_card h2 {
+  position: absolute;
+  top: 20px;
+  text-decoration: underline;
+}
+.second_category ul .second_category_card img {
+  width: 200px;
+}/*# sourceMappingURL=index.css.map */

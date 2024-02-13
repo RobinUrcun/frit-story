@@ -1,0 +1,34 @@
+.section_horraire {
+  margin-top: 150px;
+  font-family: "Protest Revolution";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .section_horraire_wrapper {
+    border: 2px black solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+.table_horraire {
+  min-width: 500px;
+
+  caption {
+    font-size: 70px;
+    text-decoration: underline;
+    margin: 30px auto;
+  }
+  tr {
+    height: 50px;
+    th {
+      width: 50%;
+      font-size: 25px;
+      text-decoration: underline;
+    }
+    td {
+      width: 50%;
+      text-align: center;
+    }
+  }
+}
