@@ -1,0 +1,10 @@
+.productPage .product_wrapper {
+  margin: 100px auto;
+  background-color: white;
+  width: 80%;
+}
+.productPage .product_wrapper h1 {
+  text-align: center;
+  font-size: 980px;
+  font-family: "Protest Revolution", sans-serif;
+}/*# sourceMappingURL=product.css.map */

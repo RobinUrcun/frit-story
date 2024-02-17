@@ -3,17 +3,17 @@ import { useOutletContext } from "react-router-dom";
 
 import UnderCategory from "../../underCategory";
 
-function BurgerProducts() {
+function MammouthProducts() {
   const {
     donnee: [donnee, setDonnee],
     category: [categories, setCategories],
   } = useOutletContext();
-  const categoryBurger = categories.find((x) => x.category === "burger");
+  const categoryMammouth = categories.find((x) => x.category === "mammouth");
 
   return (
     <section className="product_section">
       <ul>
-        {categoryBurger.meat.map((meat, index) => (
+        {categoryMammouth.meat.map((meat, index) => (
           <UnderCategory
             key={meat + index}
             route={meat.route}
@@ -28,4 +28,4 @@ function BurgerProducts() {
   );
 }
 
-export default BurgerProducts;
+export default MammouthProducts;

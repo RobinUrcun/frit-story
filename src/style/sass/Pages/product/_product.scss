@@ -1,0 +1,115 @@
+.productPage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .product_image_wrapper {
+    background: linear-gradient($purple, $mainColorDeg);
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      margin: 200px;
+      width: 300px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 90px;
+      color: $purple;
+      font-family: "Protest Revolution", sans-serif;
+    }
+  }
+  .product_info {
+    color: $purple;
+    font-family: "Protest Revolution", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 65%;
+    .product_info_wrapper {
+      border: 4px $purple solid;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: -5px 30px 30px -25px black;
+
+      h1 {
+        padding: 40px 0 60px;
+        text-align: center;
+        font-size: 090px;
+        text-decoration: underline;
+      }
+      .product_info_description {
+        background: linear-gradient($purple, $mainColorDeg);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+        font-size: 30px;
+        color: white;
+        padding: 60px;
+      }
+      .product_info_price {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        transform: rotate(-30deg);
+        font-size: 60px;
+        background-color: yellow;
+        box-shadow: 0 30px 30px -25px rgba(#4133b7, 0.25);
+      }
+    }
+  }
+}
+
+.product_ingredient_wrapper {
+  min-width: 400px;
+  margin-top: 50px;
+  width: fit-content;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+
+  .product_ingredient_titled {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    background-color: $purple;
+    color: white;
+    z-index: 2;
+
+    h2 {
+      margin: 15px 40px;
+    }
+    img {
+      height: 15px;
+      width: 26px;
+      margin-right: 10px;
+    }
+  }
+  .product_ingredient_list_close {
+    position: absolute;
+    transition: top 1s;
+    top: -100%;
+    background-color: white;
+    padding: 10px;
+    z-index: -2;
+    li {
+      margin: 10px;
+    }
+  }
+  .product_ingredient_list {
+    transition: top 1s;
+    top: 0;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    z-index: -2;
+    li {
+      margin: 10px;
+    }
+  }
+}

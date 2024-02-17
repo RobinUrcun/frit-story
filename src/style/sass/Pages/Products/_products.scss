@@ -4,70 +4,28 @@
   justify-content: center;
   align-items: center;
   h1 {
-    font-size: 70px;
+    color: $purple;
+    font-size: 75px;
     font-family: "Protest Revolution", sans-serif;
+    transform: rotate(-2deg);
     margin: 30px auto 50px;
-    text-decoration: underline;
+    border: 5px $purple solid;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 30px 30px -25px rgba(#4133b7, 0.25);
   }
 }
 
-.first_categories {
-  width: 70%;
+.product_section ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
-  .first_category_card {
-    font-family: "Protest Revolution", sans-serif;
-    color: black;
-    font-size: 20px;
-    text-align: center;
-
-    height: 180px;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    h2 {
-      position: absolute;
-      top: 20px;
-      text-decoration: underline;
-    }
-
-    img {
-      width: 100px;
-    }
-  }
+  justify-content: center;
 }
 
-.second_category {
-  ul {
-    display: flex;
-    flex-direction: row;
-    .second_category_card {
-      font-family: "Protest Revolution", sans-serif;
-      color: black;
-      font-size: 20px;
-      text-align: center;
-
-      height: 280px;
-      width: 250px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      h2 {
-        position: absolute;
-        top: 20px;
-        text-decoration: underline;
-      }
-
-      img {
-        width: 200px;
-      }
-    }
-  }
+.product_background {
+  background-color: $purple;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

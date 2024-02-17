@@ -1,9 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Protest+Revolution&display=swap");
+body {
+  background-color: rgb(235, 238, 245);
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 150px;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
+  color: rgb(99, 88, 204);
+  background-color: hsl(0, 0%, 100%);
 }
 header .header_logo {
   display: flex;
@@ -19,12 +32,12 @@ header .header_nav {
   display: flex;
   justify-content: center;
   font-size: 40px;
-  color: black;
+  color: #335f8a;
   font-family: "Protest Revolution", sans-serif;
 }
 header .header_nav a:visited,
 header .header_nav a {
-  color: black;
+  color: #335f8a;
   text-decoration: none;
 }
 header .header_nav ul {
@@ -39,8 +52,7 @@ header .header_nav ul li {
 }
 
 footer {
-  margin-top: 60px;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.902);
   display: flex;
   height: 200px;
   width: 100%;
@@ -55,8 +67,8 @@ footer .footer_logo::after {
   content: "";
   display: block;
   width: 150px;
-  height: 5px;
-  background-color: rgb(216, 82, 79);
+  height: 2px;
+  background-color: #6db0f3;
   position: absolute;
   top: 50%;
   left: 100%;
@@ -65,8 +77,8 @@ footer .footer_logo::before {
   content: "";
   display: block;
   width: 150px;
-  height: 5px;
-  background-color: rgb(216, 82, 79);
+  height: 2px;
+  background-color: #6db0f3;
   position: absolute;
   top: 50%;
   right: 100%;
@@ -83,6 +95,29 @@ footer .footer_social {
 footer .footer_social img {
   border-radius: 5px;
   width: 50px;
+}
+
+.errorSection {
+  margin: 50px auto;
+  color: #335f8a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.errorSection p {
+  font-size: 400px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.errorSection a {
+  font-size: 30px;
+  margin: 20px auto;
+}
+.errorSection a:visited {
+  color: #335f8a;
 }
 
 .banner {
@@ -117,14 +152,16 @@ footer .footer_social img {
 }
 
 .section_horraire {
-  margin-top: 150px;
+  margin: 150px auto 50px;
   font-family: "Protest Revolution";
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #335f8a;
 }
 .section_horraire .section_horraire_wrapper {
-  border: 2px black solid;
+  border: 2px #335f8a solid;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -156,62 +193,229 @@ footer .footer_social img {
   align-items: center;
 }
 .main_products h1 {
-  font-size: 70px;
+  color: #335f8a;
+  font-size: 75px;
   font-family: "Protest Revolution", sans-serif;
+  transform: rotate(-2deg);
   margin: 30px auto 50px;
-  text-decoration: underline;
+  border: 5px #335f8a solid;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
 }
 
-.first_categories {
-  width: 70%;
+.product_section ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.product_background {
+  background-color: #335f8a;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  margin: 30px 20px;
+  font-family: "Protest Revolution", sans-serif;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
+  color: #335f8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card a {
+  display: block;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card a:visited,
+.card a {
+  color: #335f8a;
+  text-decoration: none;
+}
+.card h2 {
+  font-size: 15px;
+}
+.card img {
+  max-height: 140px;
+  width: 150px;
+}
+
+.cardSingleProduct {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  margin: 30px 20px;
+  font-family: "Protest Revolution", sans-serif;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
+  color: #335f8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardSingleProduct a {
+  display: block;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardSingleProduct a:visited,
+.cardSingleProduct a {
+  color: #335f8a;
+  text-decoration: none;
+}
+.cardSingleProduct .singleProductWrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
-.first_categories .first_category_card {
-  font-family: "Protest Revolution", sans-serif;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  height: 180px;
+.cardSingleProduct .singleProductWrapper h3 {
+  font-size: 25px;
+}
+.cardSingleProduct .singleProductWrapper img {
+  max-height: 140px;
   width: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
-.first_categories .first_category_card h2 {
+.cardSingleProduct .singleProductWrapper p {
+  font-size: 12px;
+  text-align: center;
+}
+.cardSingleProduct .priceProduct {
   position: absolute;
-  top: 20px;
-  text-decoration: underline;
-}
-.first_categories .first_category_card img {
-  width: 100px;
+  left: 0;
+  transform: rotate(-30deg);
+  font-size: 30px;
+  background-color: yellow;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
 }
 
-.second_category ul {
+.productPage {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
-.second_category ul .second_category_card {
-  font-family: "Protest Revolution", sans-serif;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  height: 280px;
-  width: 250px;
+.productPage .product_image_wrapper {
+  background: linear-gradient(#335f8a, #6db0f3);
+  width: 35%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
-.second_category ul .second_category_card h2 {
-  position: absolute;
-  top: 20px;
+.productPage .product_image_wrapper img {
+  margin: 200px;
+  width: 300px;
+}
+.productPage .product_image_wrapper h1 {
+  text-align: center;
+  font-size: 90px;
+  color: #335f8a;
+  font-family: "Protest Revolution", sans-serif;
+}
+.productPage .product_info {
+  color: #335f8a;
+  font-family: "Protest Revolution", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  width: 65%;
+}
+.productPage .product_info .product_info_wrapper {
+  border: 4px #335f8a solid;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: -5px 30px 30px -25px black;
+}
+.productPage .product_info .product_info_wrapper h1 {
+  padding: 40px 0 60px;
+  text-align: center;
+  font-size: 90px;
   text-decoration: underline;
 }
-.second_category ul .second_category_card img {
-  width: 200px;
+.productPage .product_info .product_info_wrapper .product_info_description {
+  background: linear-gradient(#335f8a, #6db0f3);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 30px;
+  color: white;
+  padding: 60px;
+}
+.productPage .product_info .product_info_wrapper .product_info_price {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  transform: rotate(-30deg);
+  font-size: 60px;
+  background-color: yellow;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
+}
+
+.product_ingredient_wrapper {
+  min-width: 400px;
+  margin-top: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+.product_ingredient_wrapper .product_ingredient_titled {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  background-color: #335f8a;
+  color: white;
+  z-index: 2;
+}
+.product_ingredient_wrapper .product_ingredient_titled h2 {
+  margin: 15px 40px;
+}
+.product_ingredient_wrapper .product_ingredient_titled img {
+  height: 15px;
+  width: 26px;
+  margin-right: 10px;
+}
+.product_ingredient_wrapper .product_ingredient_list_close {
+  position: absolute;
+  transition: top 1s;
+  top: -100%;
+  background-color: white;
+  padding: 10px;
+  z-index: -2;
+}
+.product_ingredient_wrapper .product_ingredient_list_close li {
+  margin: 10px;
+}
+.product_ingredient_wrapper .product_ingredient_list {
+  transition: top 1s;
+  top: 0;
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  z-index: -2;
+}
+.product_ingredient_wrapper .product_ingredient_list li {
+  margin: 10px;
 }/*# sourceMappingURL=index.css.map */

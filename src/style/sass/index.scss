@@ -1,8 +1,12 @@
 @import "./Utils/fonts";
 @import "./Utils/variables";
+@import "./Base.scss/base";
 @import "./Components/Header/header";
 @import "./Components/Footer/footer";
+@import "./Pages/Error/error";
 @import "./Pages/Home/home";
 @import "./Components/Banner/banner";
 @import "./Pages/Home/Section/sectionHorraire";
 @import "./Pages/Products/products";
+@import "./Pages/Products/cardProducts";
+@import "./Pages/product/product.scss";

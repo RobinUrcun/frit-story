@@ -1,0 +1,23 @@
+.errorSection {
+  margin: 50px auto;
+  color: $purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  p {
+    font-size: 400px;
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+  a {
+    font-size: 30px;
+    margin: 20px auto;
+
+    &:visited {
+      color: $purple;
+    }
+  }
+}

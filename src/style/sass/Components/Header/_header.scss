@@ -3,6 +3,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 150px;
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
+  color: rgb(99, 88, 204);
+  background-color: hsl(0, 0%, 100%);
 
   .header_logo {
     display: flex;
@@ -18,11 +21,11 @@ header {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: black;
+    color: $purple;
     font-family: "Protest Revolution", sans-serif;
     a:visited,
     a {
-      color: black;
+      color: $purple;
       text-decoration: none;
     }
 
