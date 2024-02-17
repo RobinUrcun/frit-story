@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa89a64e.css",
+    "main.js": "/static/js/main.b6d81552.js",
+    "static/media/logo_salad.png": "/static/media/logo_salad.0dbea58fdeaa42745b52.png",
+    "static/media/logo_mammouth.png": "/static/media/logo_mammouth.426ab0183a0a353666d2.png",
+    "static/media/beefBurger.png": "/static/media/beefBurger.6a3b0744109144597ddb.png",
+    "static/media/chickenBurger.png": "/static/media/chickenBurger.a9612684bd86b6a46625.png",
+    "static/media/chickenMammouth.png": "/static/media/chickenMammouth.6f1d1dea9cb120b37774.png",
+    "static/media/chickenSndwich.png": "/static/media/chickenSndwich.6edb25411bacf1050ad7.png",
+    "static/media/beefMammouth.png": "/static/media/beefMammouth.0249a3cd1fe3e36f5255.png",
+    "static/media/logo_panini.png": "/static/media/logo_panini.87b8c81925a365adc486.png",
+    "static/media/logo_burger.png": "/static/media/logo_burger.cdf9bb5b5bcd9bc676cd.png",
+    "static/media/beefSandwich.png": "/static/media/beefSandwich.07bef177bfd9f5f6124d.png",
+    "static/media/logo_sandwich.png": "/static/media/logo_sandwich.dc9cd3ae3dfe087c9049.png",
+    "static/media/logo_facebook.png": "/static/media/logo_facebook.823195ed8097fe8a0ce9.png",
+    "static/media/banner.jpeg": "/static/media/banner.490aa625c455fe4ec524.jpeg",
+    "static/media/logo.jpeg": "/static/media/logo.5f7872774ae04cbedc60.jpeg",
+    "static/media/logo_tripadvisor.png": "/static/media/logo_tripadvisor.af195f494c440222fda7.png",
+    "static/media/logo_instagram.jpeg": "/static/media/logo_instagram.538027797f29b1c73d46.jpeg",
+    "index.html": "/index.html",
+    "main.fa89a64e.css.map": "/static/css/main.fa89a64e.css.map",
+    "main.b6d81552.js.map": "/static/js/main.b6d81552.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa89a64e.css",
+    "static/js/main.b6d81552.js"
+  ]
+}

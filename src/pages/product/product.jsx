@@ -7,8 +7,8 @@ function ProductSingle() {
   const [donnee, setDonnee] = useState([]);
   const [ingredients, setIngredients] = useState([]);
   const [isBoxOpen, setIsBoxOpen] = useState(false);
+
   const idOfProductSelected = useParams().id;
-  console.log(idOfProductSelected);
 
   function openBox() {
     setIsBoxOpen(!isBoxOpen);
@@ -17,6 +17,7 @@ function ProductSingle() {
   useEffect(() => {
     async function response() {
       try {
+        console.log(idOfProductSelected);
         const responses = await fetch(
           `https://frit-story-api-b3vs.vercel.app/api/carte/${idOfProductSelected}`
         );
@@ -29,7 +30,7 @@ function ProductSingle() {
       }
     }
     response();
-  }, []);
+  });
 
   console.log(donnee);
   console.log(ingredients);
