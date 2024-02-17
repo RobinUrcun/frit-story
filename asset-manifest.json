@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/frit-story/static/css/main.fa89a64e.css",
+    "main.js": "/frit-story/static/js/main.c7b2fc20.js",
+    "static/media/logo_salad.png": "/frit-story/static/media/logo_salad.0dbea58fdeaa42745b52.png",
+    "static/media/logo_mammouth.png": "/frit-story/static/media/logo_mammouth.426ab0183a0a353666d2.png",
+    "static/media/beefBurger.png": "/frit-story/static/media/beefBurger.6a3b0744109144597ddb.png",
+    "static/media/chickenBurger.png": "/frit-story/static/media/chickenBurger.a9612684bd86b6a46625.png",
+    "static/media/chickenMammouth.png": "/frit-story/static/media/chickenMammouth.6f1d1dea9cb120b37774.png",
+    "static/media/chickenSndwich.png": "/frit-story/static/media/chickenSndwich.6edb25411bacf1050ad7.png",
+    "static/media/beefMammouth.png": "/frit-story/static/media/beefMammouth.0249a3cd1fe3e36f5255.png",
+    "static/media/logo_panini.png": "/frit-story/static/media/logo_panini.87b8c81925a365adc486.png",
+    "static/media/logo_burger.png": "/frit-story/static/media/logo_burger.cdf9bb5b5bcd9bc676cd.png",
+    "static/media/beefSandwich.png": "/frit-story/static/media/beefSandwich.07bef177bfd9f5f6124d.png",
+    "static/media/logo_sandwich.png": "/frit-story/static/media/logo_sandwich.dc9cd3ae3dfe087c9049.png",
+    "static/media/logo_facebook.png": "/frit-story/static/media/logo_facebook.823195ed8097fe8a0ce9.png",
+    "static/media/banner.jpeg": "/frit-story/static/media/banner.490aa625c455fe4ec524.jpeg",
+    "static/media/logo.jpeg": "/frit-story/static/media/logo.5f7872774ae04cbedc60.jpeg",
+    "static/media/logo_tripadvisor.png": "/frit-story/static/media/logo_tripadvisor.af195f494c440222fda7.png",
+    "static/media/logo_instagram.jpeg": "/frit-story/static/media/logo_instagram.538027797f29b1c73d46.jpeg",
+    "index.html": "/frit-story/index.html",
+    "main.fa89a64e.css.map": "/frit-story/static/css/main.fa89a64e.css.map",
+    "main.c7b2fc20.js.map": "/frit-story/static/js/main.c7b2fc20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa89a64e.css",
+    "static/js/main.c7b2fc20.js"
+  ]
+}
